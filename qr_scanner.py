@@ -3,7 +3,7 @@ import pandas as pd
 
 # Load the dataset containing IDs (CSV format)
 # The dataset should have a column named 'ID' for matching purposes
-dataset_path = 'R:\AMS\student_data.csv'  # Change this to your actual dataset path
+dataset_path = 'C:\AMS\student_data.csv'  # Change this to your actual dataset path
 attendance_data = pd.read_csv(dataset_path)
 
 def scan_qr_code():
